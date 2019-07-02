@@ -1,4 +1,4 @@
 <?php
-$page = file_get_contents('http://forosdelweb.com');
+$page = file_get_contents('https://admiring-engelbart-adafff.netlify.com/');
 echo $page;
 ?>
