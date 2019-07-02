@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Untitled</title>
+<script>
+var pagina=[]
+//Pon aquí todos las páginas que estimes oportunas:
+pagina[0]="http://www.habbo.es";
+pagina[1]="http://www.instagram.com";
+pagina[2]="http://www.youtube.com";
+pagina[3]="http://www.twitter.com";
+pagina[4]="http://www.ahsspain.com";
+
+function aleatorio(){
+return pagina[parseInt(pagina.length*Math.random())];
+}
+</script>
+
+</head>
+
+<body>
+
+<a href="aleatorio.html" onclick="this.href=aleatorio()">Pincha y verás</a>
+
+
+</body>
+</html> 
